@@ -6,7 +6,7 @@
 
 html, body{
   width: 100%;
-  background-image: url('./images/background.png');
+  background-image: url('../images/piza.jpeg');
   background-color: #cccccc;
   background-repeat: no-repeat;
   background-size: cover;
@@ -17,7 +17,7 @@ html, body{
 
 #content {
   width:100%;
-  max-width: 1080px;
+  max-width: 100*;
   margin:0 auto;
   min-height: 100vh;
   padding:0;
@@ -63,10 +63,22 @@ html, body{
   background-color: rgba(0, 0, 0, 0.205);
 }
 
-#footer {
+.hero {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
   position: absolute;
+  background-attachment: fixed;
   width: 100%;
-  max-width: 1080px;
+  height: 100%;
+  color: #cccccc;
+}
+
+#footer {
+  position: fixed;
+  width: 100%;
+  max-width: 100%;
   bottom: 0;
   padding: 10px 10px;
   background-color: #eb7e7e63;
